@@ -276,3 +276,89 @@ section ul {
 #contact button:hover {
     background: #4cbb0b;
 }
+/* -------------------- RESPONSIVE SUPPLÉMENTAIRE -------------------- */
+
+/* 📱 Écrans ≤ 600px (mobiles classiques) */
+@media (max-width: 600px) {
+    /* Menu vertical plus compact */
+    .pp {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .pp a {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* Contenu */
+    .couche {
+        max-width: 90%;
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* 📱 Écrans ≤ 400px (petits téléphones) */
+@media (max-width: 400px) {
+    .pp a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.85rem;
+    }
+
+    #contact input,
+    #contact textarea {
+        font-size: 0.9rem;
+    }
+
+    #contact button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+/* 🖥 Écrans ≥ 1200px (grands écrans) */
+@media (min-width: 1200px) {
+    #home {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .pr {
+        width: 20vw;
+    }
+
+    #dx {
+        width: 80vw;
+    }
+
+    section {
+        padding: 100px 15%;
+    }
+
+    section h2 {
+        font-size: 3rem;
+    }
+}
