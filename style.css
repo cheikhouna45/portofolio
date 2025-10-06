@@ -338,27 +338,3 @@ section ul {
         padding: 10px;
     }
 }
-
-/* 🖥 Écrans ≥ 1200px (grands écrans) */
-@media (min-width: 1200px) {
-    #home {
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-
-    .pr {
-        width: 20vw;
-    }
-
-    #dx {
-        width: 80vw;
-    }
-
-    section {
-        padding: 100px 15%;
-    }
-
-    section h2 {
-        font-size: 3rem;
-    }
-}
